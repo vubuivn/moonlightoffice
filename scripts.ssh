@@ -2,11 +2,11 @@
 
 cp wp-config-sample.php wp-config.php
 
-sed -i 's/database_name_here/PROJECT/' wp-config.php
+sed -i 's/database_name_here/moonlightoffice/' wp-config.php
 sed -i 's/username_here/root/' wp-config.php
-sed -i 's/password_here/DATABASEPASSWORD/' wp-config.php
+sed -i 's/password_here/mangohcm123cicd/' wp-config.php
 
-mysql -uroot -pDATABASEPASSWORD -e "CREATE DATABASE PROJECT"
+mysql -uroot -pmangohcm123cicd -e "CREATE DATABASE moonlightoffice"
 
 echo "define('WP_MEMORY_LIMIT', '256M');
 define('WP_MAX_MEMORY_LIMIT', '512M');
@@ -42,26 +42,26 @@ php_value memory_limit 3000M
 php_value max_execution_time 180
 php_value max_input_time 180" >> .htaccess
 
-sudo chown -R www-data:root /var/www/PROJECT
+sudo chown -R www-data:root /var/www/moonlightoffice
 
 cd /etc/apache2/sites-enabled/
-touch PROJECT.conf
+touch moonlightoffice.conf
 echo '
 <VirtualHost *:80>
-    ServerName 'DOMAIN'
+    ServerName 'moonlightoffice.com'
     ServerAdmin webmaster@localhost
-    DocumentRoot /var/www/'PROJECT'
+    DocumentRoot /var/www/'moonlightoffice'
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
-    <Directory /var/www/'PROJECT'>
+    <Directory /var/www/'moonlightoffice'>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Require all granted
     </Directory>
-</VirtualHost>' >PROJECT.conf
+</VirtualHost>' >moonlightoffice.conf
 
 sudo service apache2 restart
-cd /var/www/PROJECT/
+cd /var/www/moonlightoffice/
 sudo cat gitlab2.txt > .gitlab-ci.yml
 git config --global user.email "vubuivn@gmail.com"
 sudo git add .
