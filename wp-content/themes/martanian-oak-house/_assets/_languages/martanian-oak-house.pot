@@ -1,0 +1,2631 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oak House WordPress Theme\n"
+"Report-Msgid-Bugs-To: Martanian <support@martanian.com>\n"
+"POT-Creation-Date: 2017-01-02 10:44+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Martanian <support@martanian.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:916
+#: class-tgm-plugin-activation.php:2622 class-tgm-plugin-activation.php:3669
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3248
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:395 class-tgm-plugin-activation.php:3041
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:611
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:612
+msgid "Update Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1023
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1023 class-tgm-plugin-activation.php:1026
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1026
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1210 class-tgm-plugin-activation.php:3037
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2071
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2362
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2365
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2381
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2384
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2387
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2404
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2408
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2410
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2416
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2419
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2422
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2431
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2477
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2571
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2579
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2587
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2599
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2622
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2636
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2637
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2638
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2642
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2643
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2692
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2697
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2703
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2773
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2806
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2812
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2815
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2846
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2889
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2997
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3023
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3247
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3590
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3596
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3598
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3598 class-tgm-plugin-activation.php:3606
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3598 class-tgm-plugin-activation.php:3606
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3599
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3604
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3607
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3609
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:8 comments.php:71
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:9 comments.php:72
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:17
+msgid "Author"
+msgstr ""
+
+#: comments.php:35
+msgid " comment"
+msgstr ""
+
+#: comments.php:35
+msgid " comments"
+msgstr ""
+
+#: content-mods.php:12
+msgid "ago"
+msgstr ""
+
+#: content-mods.php:156 customizer.php:194 customizer.php:427
+#: martanian_oak_house_shortcode_contact_details_box_element.php:6
+#: vc_map.php:740
+msgid "1-800-123-4567"
+msgstr ""
+
+#: content-mods.php:157 customizer.php:213 customizer.php:446
+msgid "tel:18001234567"
+msgstr ""
+
+#: content-mods.php:162 customizer.php:257 customizer.php:490
+msgid "email@example.com"
+msgstr ""
+
+#: content-mods.php:163 customizer.php:276 customizer.php:509
+msgid "mailto:email@example.com"
+msgstr ""
+
+#: content-mods.php:168 customizer.php:320 customizer.php:553
+msgid "15th Avenue, New York, NY"
+msgstr ""
+
+#: content-mods.php:392
+msgid "Articles you might like"
+msgstr ""
+
+#: content-mods.php:392
+msgid "Similar posts"
+msgstr ""
+
+#: content-mods.php:682
+msgid "Search"
+msgstr ""
+
+#: content-mods.php:940
+msgid "Nothing found here..."
+msgstr ""
+
+#: content-mods.php:941
+msgid ""
+"We couldn’t find the results you’re looking for - it may be removed, or "
+"temporary hidden. Please try to use the search form, or go back to home page."
+msgstr ""
+
+#: content-mods.php:985
+msgid "Home page"
+msgstr ""
+
+#: customizer.php:49
+#, php-format
+msgid "You can use any of the FontAwesome %s icon."
+msgstr ""
+
+#: customizer.php:49
+msgid "http://fontawesome.io/icons/"
+msgstr ""
+
+#: customizer.php:82
+msgid "Logo"
+msgstr ""
+
+#: customizer.php:83
+msgid "Upload your website logo here."
+msgstr ""
+
+#: customizer.php:107 customizer.php:138
+msgid "Your website logo"
+msgstr ""
+
+#: customizer.php:177 customizer.php:389
+msgid "Top header bar"
+msgstr ""
+
+#: customizer.php:178
+msgid ""
+"Set your phone number, email address and location details in top header bar. "
+"If you do not want to use any of the element, just leave it empty."
+msgstr ""
+
+#: customizer.php:203 customizer.php:436
+msgid "Phone number"
+msgstr ""
+
+#: customizer.php:222 customizer.php:455
+msgid "Phone number URL"
+msgstr ""
+
+#: customizer.php:241 customizer.php:304 customizer.php:367 customizer.php:474
+#: customizer.php:537 customizer.php:600
+msgid "Open link in new tab"
+msgstr ""
+
+#: customizer.php:266 customizer.php:499
+msgid "Email address"
+msgstr ""
+
+#: customizer.php:285 customizer.php:518
+msgid "Email address URL"
+msgstr ""
+
+#: customizer.php:329 customizer.php:562
+msgid "Location"
+msgstr ""
+
+#: customizer.php:348 customizer.php:581
+msgid "Location URL"
+msgstr ""
+
+#: customizer.php:390
+msgid ""
+"Set your phone number, email address and location details in top header bar."
+msgstr ""
+
+#: customizer.php:410
+msgid "Contact details"
+msgstr ""
+
+#: customizer.php:411
+msgid ""
+"Set your phone number, email address or location details in top header bar. "
+"If you do not want to use any of the element, just leave it empty."
+msgstr ""
+
+#: customizer.php:640
+msgid "Theme colors"
+msgstr ""
+
+#: customizer.php:641
+msgid "You can manage theme colors here."
+msgstr ""
+
+#: customizer.php:657
+msgid "General colors"
+msgstr ""
+
+#: customizer.php:658
+msgid "You can manage general website colors here."
+msgstr ""
+
+#: customizer.php:678
+msgid "Main color:"
+msgstr ""
+
+#: customizer.php:702
+msgid "Important text color:"
+msgstr ""
+
+#: customizer.php:726 customizer.php:1494 customizer.php:1606
+msgid "Text color:"
+msgstr ""
+
+#: customizer.php:750
+msgid "Timeline color:"
+msgstr ""
+
+#: customizer.php:774
+msgid "Contact form section background color:"
+msgstr ""
+
+#: customizer.php:798
+msgid "FAQ-short section background color:"
+msgstr ""
+
+#: customizer.php:822
+msgid "Gray sections and elements background color:"
+msgstr ""
+
+#: customizer.php:846
+msgid "Gray elements background color hover:"
+msgstr ""
+
+#: customizer.php:870
+msgid "Loader background color:"
+msgstr ""
+
+#: customizer.php:894
+msgid "Document icon color:"
+msgstr ""
+
+#: customizer.php:918
+msgid "Post date color:"
+msgstr ""
+
+#: customizer.php:942
+msgid "Gray text on gray background color:"
+msgstr ""
+
+#: customizer.php:966
+msgid "Image caption icon background color:"
+msgstr ""
+
+#: customizer.php:990
+msgid "Image caption icon color:"
+msgstr ""
+
+#: customizer.php:1014
+msgid "Comment reply icon color:"
+msgstr ""
+
+#: customizer.php:1038
+msgid "Gallery section background color:"
+msgstr ""
+
+#: customizer.php:1057
+msgid "Header bar"
+msgstr ""
+
+#: customizer.php:1058
+msgid "You can manage header bar colors settings here."
+msgstr ""
+
+#: customizer.php:1078 customizer.php:1286
+msgid "Background color:"
+msgstr ""
+
+#: customizer.php:1102
+msgid "Top elements text color:"
+msgstr ""
+
+#: customizer.php:1126
+msgid "Top elements divider color:"
+msgstr ""
+
+#: customizer.php:1150
+msgid "Menu link color:"
+msgstr ""
+
+#: customizer.php:1174
+msgid "Submenu bottom border color:"
+msgstr ""
+
+#: customizer.php:1198
+msgid "Submenu background color:"
+msgstr ""
+
+#: customizer.php:1222
+msgid "Submenu link color:"
+msgstr ""
+
+#: customizer.php:1246
+msgid "Submenu link color hover:"
+msgstr ""
+
+#: customizer.php:1265
+msgid "Responsive menu"
+msgstr ""
+
+#: customizer.php:1266
+msgid "You can manage responsive menu colors here."
+msgstr ""
+
+#: customizer.php:1310
+msgid "Border color:"
+msgstr ""
+
+#: customizer.php:1334
+msgid "Link color:"
+msgstr ""
+
+#: customizer.php:1358
+msgid "Link color hover:"
+msgstr ""
+
+#: customizer.php:1377 vc_map.php:1989
+msgid "Heading slider"
+msgstr ""
+
+#: customizer.php:1378
+msgid "You can manage heading slider colors here."
+msgstr ""
+
+#: customizer.php:1398
+msgid "Slide overlay background color:"
+msgstr ""
+
+#: customizer.php:1422
+msgid "Content background color:"
+msgstr ""
+
+#: customizer.php:1446
+msgid "Content background responsive color:"
+msgstr ""
+
+#: customizer.php:1470 customizer.php:1582
+msgid "Title color:"
+msgstr ""
+
+#: customizer.php:1513 vc_map.php:2957
+msgid "Video section"
+msgstr ""
+
+#: customizer.php:1514
+msgid "You can manage video section colors here."
+msgstr ""
+
+#: customizer.php:1534
+msgid "Overlay background color:"
+msgstr ""
+
+#: customizer.php:1558
+msgid "Play button color hover:"
+msgstr ""
+
+#: customizer.php:1625 vc_map.php:1072
+msgid "Doctor details"
+msgstr ""
+
+#: customizer.php:1626
+msgid "You can manage doctor details section colors here."
+msgstr ""
+
+#: customizer.php:1646
+msgid "Background gradient first color:"
+msgstr ""
+
+#: customizer.php:1670
+msgid "Background gradient last color:"
+msgstr ""
+
+#: customizer.php:1694
+msgid "Blockquote border top color:"
+msgstr ""
+
+#: customizer.php:1713
+msgid "Forms"
+msgstr ""
+
+#: customizer.php:1714
+msgid "You can manage forms colors here."
+msgstr ""
+
+#: customizer.php:1734
+msgid "Field border color:"
+msgstr ""
+
+#: customizer.php:1758
+msgid "Field border color hover:"
+msgstr ""
+
+#: customizer.php:1782
+msgid "Button border color:"
+msgstr ""
+
+#: customizer.php:1806
+msgid "Button text color:"
+msgstr ""
+
+#: customizer.php:1830
+msgid "Button text color hover:"
+msgstr ""
+
+#: customizer.php:1854
+msgid "Button hover background color:"
+msgstr ""
+
+#: customizer.php:1878
+msgid "Button icon color:"
+msgstr ""
+
+#: customizer.php:1902
+msgid "Button icon color hover:"
+msgstr ""
+
+#: customizer.php:1926
+msgid "Button transparent on dark text color:"
+msgstr ""
+
+#: customizer.php:1950
+msgid "Button fill background color:"
+msgstr ""
+
+#: customizer.php:1974
+msgid "Button color text color:"
+msgstr ""
+
+#: customizer.php:1993
+msgid "Progress bars"
+msgstr ""
+
+#: customizer.php:1994
+msgid "You can manage progress bars gradient color here."
+msgstr ""
+
+#: customizer.php:2014
+msgid "First color:"
+msgstr ""
+
+#: customizer.php:2038
+msgid "Second color:"
+msgstr ""
+
+#: customizer.php:2062
+msgid "Third color:"
+msgstr ""
+
+#: demo-importer.php:60
+msgid "Main menu"
+msgstr ""
+
+#: demo-importer.php:61
+msgid "Footer menu"
+msgstr ""
+
+#: demo-importer.php:75 vc_functions.php:15
+msgid "Home"
+msgstr ""
+
+#: demo-importer.php:76 martanian_oak_house_shortcode_recent_news.php:8
+#: vc_functions.php:12 vc_map.php:2470
+msgid "Blog"
+msgstr ""
+
+#: demo-importer.php:99
+msgid "Sidebar pages menu"
+msgstr ""
+
+#: demo-importer.php:120
+msgid "Popular tags"
+msgstr ""
+
+#: demo-importer.php:128 widgets.php:60
+msgid "Popular posts"
+msgstr ""
+
+#: demo-importer.php:148 demo-importer.php:161 widgets.php:325 widgets.php:521
+msgid "Still have any questions?"
+msgstr ""
+
+#: demo-importer.php:150 demo-importer.php:163
+#: martanian_oak_house_shortcode_call_to_action_with_icon.php:5
+#: martanian_oak_house_shortcode_call_to_action_with_icon.php:9
+#: martanian_oak_house_shortcode_contact_form.php:5
+#: vc_default_templates.php:247 vc_default_templates.php:385
+#: vc_default_templates.php:389 vc_default_templates.php:393
+#: vc_default_templates.php:449 vc_map.php:336 vc_map.php:383 vc_map.php:775
+#: widgets.php:327 widgets.php:523
+msgid "Contact us!"
+msgstr ""
+
+#: functions.php:28
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:31
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:128
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:157
+msgid "Post reply"
+msgstr ""
+
+#: functions.php:159
+msgid "Name..."
+msgstr ""
+
+#: functions.php:160
+msgid "E-mail address..."
+msgstr ""
+
+#: functions.php:161
+msgid "Website URL..."
+msgstr ""
+
+#: functions.php:163
+msgid "Comment..."
+msgstr ""
+
+#: functions.php:211 functions.php:213
+msgid "Blog sidebar"
+msgstr ""
+
+#: functions.php:222 functions.php:224
+msgid "Pages sidebar"
+msgstr ""
+
+#: functions.php:252
+msgid "Select or upload image for widget"
+msgstr ""
+
+#: functions.php:253
+msgid "Use this image"
+msgstr ""
+
+#: functions.php:445
+msgid "Martanian Shortcodes"
+msgstr ""
+
+#: functions.php:451
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: functions.php:457
+msgid "Contact Form 7"
+msgstr ""
+
+#: index.php:61 search.php:61 single.php:52 theme-options.php:439
+msgid "at"
+msgstr ""
+
+#: index.php:78 search.php:78 single.php:74
+msgid "Sticky"
+msgstr ""
+
+#: index.php:99 martanian_oak_house_shortcode_recent_news.php:145 search.php:99
+#: vc_default_templates.php:304
+msgid "Read more"
+msgstr ""
+
+#: index.php:117 index.php:132 search.php:117 search.php:132
+msgid "Previous posts"
+msgstr ""
+
+#: index.php:118 index.php:147 search.php:118 search.php:147
+msgid "Next posts"
+msgstr ""
+
+#: martanian_oak_house_shortcode_call_to_action_with_icon.php:9 vc_map.php:383
+msgid "Contact"
+msgstr ""
+
+#: martanian_oak_house_shortcode_call_to_action_with_icon.php:20
+#: vc_default_templates.php:449 vc_map.php:557
+msgid "or call us now!"
+msgstr ""
+
+#: martanian_oak_house_shortcode_contact_details_box.php:5 vc_map.php:711
+msgid "Feel free to contact us"
+msgstr ""
+
+#: martanian_oak_house_shortcode_contact_details_box_element.php:5
+#: vc_map.php:734
+msgid "Phone, FAX"
+msgstr ""
+
+#: martanian_oak_house_shortcode_contact_form.php:21
+#: martanian_oak_house_shortcode_double_images.php:8
+#: martanian_oak_house_shortcode_double_images.php:12
+#: martanian_oak_house_shortcode_faq_short.php:6
+#: martanian_oak_house_shortcode_gallery_element.php:8
+#: martanian_oak_house_shortcode_heading_slider_slide.php:8
+#: martanian_oak_house_shortcode_three_images_header.php:8
+#: martanian_oak_house_shortcode_three_images_header.php:12
+#: martanian_oak_house_shortcode_three_images_header.php:16
+#: martanian_oak_house_shortcode_video_section.php:10
+#: vc_default_templates.php:234 vc_default_templates.php:245
+#: vc_default_templates.php:263 vc_default_templates.php:272
+#: vc_default_templates.php:274 vc_default_templates.php:276
+#: vc_default_templates.php:285 vc_default_templates.php:299
+#: vc_default_templates.php:315 vc_default_templates.php:324
+#: vc_default_templates.php:342 vc_default_templates.php:344
+#: vc_default_templates.php:346 vc_default_templates.php:355
+#: vc_default_templates.php:370 vc_default_templates.php:381
+#: vc_default_templates.php:385 vc_default_templates.php:389
+#: vc_default_templates.php:407 vc_default_templates.php:483 vc_map.php:969
+#: vc_map.php:1039 vc_map.php:1060 vc_map.php:1537 vc_map.php:1561
+#: vc_map.php:1569 vc_map.php:1593 vc_map.php:1745 vc_map.php:2051
+#: vc_map.php:2297 vc_map.php:2299 vc_map.php:2307 vc_map.php:2315
+#: vc_map.php:2321 vc_map.php:2332 vc_map.php:2796 vc_map.php:2820
+#: vc_map.php:2828 vc_map.php:2852 vc_map.php:2860 vc_map.php:2884
+msgid "Image"
+msgstr ""
+
+#: martanian_oak_house_shortcode_doctor_details.php:5 vc_map.php:1085
+msgid "Certificates"
+msgstr ""
+
+#: martanian_oak_house_shortcode_doctor_details.php:6
+#: vc_default_templates.php:263 vc_map.php:1099
+msgid "Monica Wayne"
+msgstr ""
+
+#: martanian_oak_house_shortcode_doctor_details.php:7 vc_map.php:1106
+msgid "Boarder"
+msgstr ""
+
+#: martanian_oak_house_shortcode_doctor_details.php:9 vc_map.php:1130
+msgid "Quality of work"
+msgstr ""
+
+#: martanian_oak_house_shortcode_doctor_details.php:13 vc_map.php:1196
+msgid "Suspendisse turpis"
+msgstr ""
+
+#: martanian_oak_house_shortcode_doctor_details.php:17 vc_map.php:1258
+msgid "Rebum quaestio et pri"
+msgstr ""
+
+#: martanian_oak_house_shortcode_document.php:5 vc_default_templates.php:300
+#: vc_default_templates.php:470 vc_map.php:1380
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: martanian_oak_house_shortcode_document.php:6 vc_map.php:1386
+msgid "PDF [divider] 13 kB"
+msgstr ""
+
+#: martanian_oak_house_shortcode_faq_group_title.php:5
+#: martanian_oak_house_shortcode_heading_slider_slide.php:12
+#: vc_default_templates.php:472 vc_map.php:1635 vc_map.php:2093
+msgid "About us"
+msgstr ""
+
+#: martanian_oak_house_shortcode_gallery.php:5 vc_map.php:1711 vc_map.php:1724
+msgid "Gallery"
+msgstr ""
+
+#: martanian_oak_house_shortcode_heading_slider_slide.php:9 vc_map.php:2062
+msgid "Retirement you deserve"
+msgstr ""
+
+#: martanian_oak_house_shortcode_heading_slider_slide.php:12
+#: vc_default_templates.php:274 vc_default_templates.php:276
+#: vc_default_templates.php:278 vc_map.php:2093
+msgid "Find out more"
+msgstr ""
+
+#: martanian_oak_house_shortcode_pricing_table_element.php:5 vc_map.php:2397
+msgid "Full-day medical care"
+msgstr ""
+
+#: martanian_oak_house_shortcode_recent_news.php:5 vc_map.php:2442
+msgid "From our Blog"
+msgstr ""
+
+#: martanian_oak_house_shortcode_recent_news.php:8 vc_map.php:2470
+msgid "Read all older news"
+msgstr ""
+
+#: martanian_oak_house_shortcode_references_slider_single_slide.php:5
+#: vc_map.php:2711
+msgid "Martha Smith"
+msgstr ""
+
+#: martanian_oak_house_shortcode_references_slider_single_slide.php:6
+#: vc_map.php:2717
+msgid "boarder"
+msgstr ""
+
+#: martanian_oak_house_shortcode_timeline.php:5 vc_map.php:2909
+msgid "Oak House history"
+msgstr ""
+
+#: martanian_oak_house_shortcode_timeline_element.php:5 vc_map.php:2932
+msgid "Hundredth patient"
+msgstr ""
+
+#: martanian_oak_house_shortcode_timeline_element.php:6 vc_map.php:2938
+msgid "02.2010"
+msgstr ""
+
+#: parsers.php:42 parsers.php:70 parsers.php:78
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: parsers.php:46
+msgid ""
+"Could not get a demo data file, please contact with theme author at "
+"support@martanian.com"
+msgstr ""
+
+#: parsers.php:82 parsers.php:87 parsers.php:304
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: single.php:65
+msgid "0 comments"
+msgstr ""
+
+#: single.php:65
+msgid "1 comment"
+msgstr ""
+
+#: single.php:65
+msgid "comments"
+msgstr ""
+
+#: single.php:93
+msgid "Switch page:"
+msgstr ""
+
+#: single.php:116
+msgid "Tags:"
+msgstr ""
+
+#: single.php:127
+msgid "Categories:"
+msgstr ""
+
+#: theme-options.php:78 theme-options.php:302
+msgid "404 page"
+msgstr ""
+
+#: theme-options.php:100
+msgid "Oak House - Senior Care"
+msgstr ""
+
+#: theme-options.php:187 theme-options.php:188
+msgid "Martanian Theme Options"
+msgstr ""
+
+#: theme-options.php:227
+msgid ""
+"Are you sure to import dummy content? It will overwrite the existing data."
+msgstr ""
+
+#: theme-options.php:228
+msgid "Data is being imported, please wait for a while..."
+msgstr ""
+
+#: theme-options.php:242
+msgid "Settings saved!"
+msgstr ""
+
+#: theme-options.php:260
+msgid "Oak House - WordPress Theme by Martanian"
+msgstr ""
+
+#: theme-options.php:263 theme-options.php:270
+msgid "Theme options"
+msgstr ""
+
+#: theme-options.php:264 theme-options.php:649
+msgid "Load demo data"
+msgstr ""
+
+#: theme-options.php:303
+msgid "Which of your pages should be used as \"404 - not found\" error page?"
+msgstr ""
+
+#: theme-options.php:333
+msgid "Select page:"
+msgstr ""
+
+#: theme-options.php:364
+msgid "Google maps API key"
+msgstr ""
+
+#: theme-options.php:365
+msgid "You can set here your Google maps API key."
+msgstr ""
+
+#: theme-options.php:365
+msgid "How to get an API key?"
+msgstr ""
+
+#: theme-options.php:371
+msgid "API key:"
+msgstr ""
+
+#: theme-options.php:382
+msgid "Facebook FanPage URL"
+msgstr ""
+
+#: theme-options.php:383
+msgid ""
+"You can set here your Facebook FanPage URL - it will be used for \"like\" "
+"button on left side of each blog post and as default value for other "
+"Facebook buttons."
+msgstr ""
+
+#: theme-options.php:416
+msgid "Facebook FanPage URL:"
+msgstr ""
+
+#: theme-options.php:446
+msgid "Publication dates"
+msgstr ""
+
+#: theme-options.php:447
+#, php-format
+msgid ""
+"Do you want the script to automatically replace publication dates to human "
+"difference? For example: replace \"%1$s\" to \"%2$s\""
+msgstr ""
+
+#: theme-options.php:453
+msgid "Replace publication dates:"
+msgstr ""
+
+#: theme-options.php:456 theme-options.php:479 theme-options.php:529
+#: theme-options.php:558
+msgid "Yes"
+msgstr ""
+
+#: theme-options.php:457 theme-options.php:480 theme-options.php:530
+#: theme-options.php:559
+msgid "No"
+msgstr ""
+
+#: theme-options.php:469
+msgid "Textarea field in comment reply form"
+msgstr ""
+
+#: theme-options.php:470
+msgid ""
+"Do you want to display textarea field at the top of comments form (WordPress "
+"default) or at the bottom (theme default)?"
+msgstr ""
+
+#: theme-options.php:476
+msgid "Display textarea field at the top of comment reply form:"
+msgstr ""
+
+#: theme-options.php:492
+msgid "Author box under blog post"
+msgstr ""
+
+#: theme-options.php:493
+msgid "You can configure author box under blog posts visibility here:"
+msgstr ""
+
+#: theme-options.php:526
+msgid "Display author box under blog post:"
+msgstr ""
+
+#: theme-options.php:548
+msgid "Similar posts under blog post"
+msgstr ""
+
+#: theme-options.php:549
+msgid "Do you want to display similar posts under each single blog post?"
+msgstr ""
+
+#: theme-options.php:555
+msgid "Display similar posts under blog post:"
+msgstr ""
+
+#: theme-options.php:571
+msgid "Footer content"
+msgstr ""
+
+#: theme-options.php:572
+msgid "You can configure your footer content here:"
+msgstr ""
+
+#: theme-options.php:605
+msgid "Footer content:"
+msgstr ""
+
+#: theme-options.php:639
+msgid "Save all changes"
+msgstr ""
+
+#: theme-options.php:653
+msgid "Load demo data with one click"
+msgstr ""
+
+#: theme-options.php:654
+msgid ""
+"All current settings, widgets, menus will be overwritten, this operation can "
+"not be undone. Your website will be configured as same as theme demo page "
+"(without images, which are not included)."
+msgstr ""
+
+#: theme-options.php:656
+msgid "Yes, install demo data"
+msgstr ""
+
+#: vc_default_templates.php:152
+msgid "Hundredth patient?"
+msgstr ""
+
+#: vc_default_templates.php:161
+msgid "Privacy"
+msgstr ""
+
+#: vc_default_templates.php:167
+msgid "Other"
+msgstr ""
+
+#: vc_default_templates.php:234
+msgid "Find our more"
+msgstr ""
+
+#: vc_default_templates.php:242
+msgid "The best healthcare"
+msgstr ""
+
+#: vc_default_templates.php:255
+msgid "Download"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "PDF"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "15 kB"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "Warranty"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "DOC"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "4 MB"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "About us - folder"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "8 kB"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "Contact informations"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "5 MB"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "References"
+msgstr ""
+
+#: vc_default_templates.php:256
+msgid "14 MB"
+msgstr ""
+
+#: vc_default_templates.php:263
+msgid "Susane Doe"
+msgstr ""
+
+#: vc_default_templates.php:263
+msgid "doctor"
+msgstr ""
+
+#: vc_default_templates.php:271
+msgid "Our services"
+msgstr ""
+
+#: vc_default_templates.php:273 vc_default_templates.php:382
+msgid "Permanent or temporary residence"
+msgstr ""
+
+#: vc_default_templates.php:275 vc_default_templates.php:386
+msgid "Rehabilitation holiday"
+msgstr ""
+
+#: vc_default_templates.php:277 vc_default_templates.php:390
+msgid "Medical help"
+msgstr ""
+
+#: vc_default_templates.php:325 vc_map.php:2967
+msgid "Watch our typical day"
+msgstr ""
+
+#: vc_default_templates.php:333
+msgid "Opening of the center"
+msgstr ""
+
+#: vc_default_templates.php:333
+msgid "09.2009"
+msgstr ""
+
+#: vc_default_templates.php:333
+msgid "12.2011"
+msgstr ""
+
+#: vc_default_templates.php:333
+msgid "08.2013"
+msgstr ""
+
+#: vc_default_templates.php:333
+msgid "10.2013"
+msgstr ""
+
+#: vc_default_templates.php:333
+msgid "01.2015"
+msgstr ""
+
+#: vc_default_templates.php:341
+msgid "Meet our team"
+msgstr ""
+
+#: vc_default_templates.php:343
+msgid "Dr Susane Smith"
+msgstr ""
+
+#: vc_default_templates.php:345
+msgid "Dr Monica Wayne"
+msgstr ""
+
+#: vc_default_templates.php:347
+msgid "Dr Tom Doe"
+msgstr ""
+
+#: vc_default_templates.php:356 vc_map.php:2789
+msgid "Peaceful environment"
+msgstr ""
+
+#: vc_default_templates.php:367
+msgid "Comfortable rooms"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "Rehabilitation treatments"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "in 4-persons groups"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "individual"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "Help in daily activities"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "Laundry"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "2 / month"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "unlimited"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "Hygienic measures"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "Sightseeing tours"
+msgstr ""
+
+#: vc_default_templates.php:400
+msgid "Integration and cultural events"
+msgstr ""
+
+#: vc_default_templates.php:408
+msgid "Dr Caroline Wellington"
+msgstr ""
+
+#: vc_default_templates.php:410
+msgid "1-123-456-7890"
+msgstr ""
+
+#: vc_default_templates.php:411
+msgid "caroline@example.com"
+msgstr ""
+
+#: vc_default_templates.php:413
+msgid "About"
+msgstr ""
+
+#: vc_default_templates.php:417
+msgid "Responsibility & Services"
+msgstr ""
+
+#: vc_default_templates.php:425
+msgid "Contact with Caroline"
+msgstr ""
+
+#: vc_default_templates.php:440
+msgid "Oh..."
+msgstr ""
+
+#: vc_default_templates.php:441
+msgid "404 error - nothing found here"
+msgstr ""
+
+#: vc_default_templates.php:442
+msgid "Go back to home page"
+msgstr ""
+
+#: vc_default_templates.php:464
+msgid "Do you have a question?"
+msgstr ""
+
+#: vc_default_templates.php:471
+msgid "Our offer"
+msgstr ""
+
+#: vc_default_templates.php:473
+msgid "News"
+msgstr ""
+
+#: vc_default_templates.php:475
+msgid "E-mail"
+msgstr ""
+
+#: vc_default_templates.php:475
+msgid "contact@example.com"
+msgstr ""
+
+#: vc_default_templates.php:475
+msgid "Address"
+msgstr ""
+
+#: vc_default_templates.php:475
+msgid "1234 Example"
+msgstr ""
+
+#: vc_default_templates.php:476
+msgid "Los Angeles, CA 98765"
+msgstr ""
+
+#: vc_default_templates.php:476
+msgid "Tax ID"
+msgstr ""
+
+#: vc_default_templates.php:476
+msgid "123456789"
+msgstr ""
+
+#: vc_default_templates.php:476
+msgid "Bank account number"
+msgstr ""
+
+#: vc_default_templates.php:476
+msgid "00 0000 0000 0000 0000 0000 0000"
+msgstr ""
+
+#: vc_default_templates.php:509
+msgid "Oak House - Page - Home"
+msgstr ""
+
+#: vc_default_templates.php:515
+msgid "Oak House - Page - About us"
+msgstr ""
+
+#: vc_default_templates.php:521
+msgid "Oak House - Page - Our offer"
+msgstr ""
+
+#: vc_default_templates.php:527
+msgid "Oak House - Page - FAQ"
+msgstr ""
+
+#: vc_default_templates.php:533
+msgid "Oak House - Page - Doctor"
+msgstr ""
+
+#: vc_default_templates.php:539
+msgid "Oak House - Page - 404 (nothing found)"
+msgstr ""
+
+#: vc_default_templates.php:545
+msgid "Oak House - Page - Contact"
+msgstr ""
+
+#: vc_default_templates.php:553
+msgid "Oak House - Section - Heading slider"
+msgstr ""
+
+#: vc_default_templates.php:559
+msgid "Oak House - Section - Two columns description"
+msgstr ""
+
+#: vc_default_templates.php:565
+msgid "Oak House - Section - Documents download"
+msgstr ""
+
+#: vc_default_templates.php:571
+msgid "Oak House - Section - References"
+msgstr ""
+
+#: vc_default_templates.php:577
+msgid "Oak House - Section - Our services"
+msgstr ""
+
+#: vc_default_templates.php:583
+msgid "Oak House - Section - Gallery"
+msgstr ""
+
+#: vc_default_templates.php:589
+msgid "Oak House - Section - Recent news"
+msgstr ""
+
+#: vc_default_templates.php:595
+msgid "Oak House - Section - FAQ-short"
+msgstr ""
+
+#: vc_default_templates.php:601
+msgid "Oak House - Section - Three-columns description"
+msgstr ""
+
+#: vc_default_templates.php:607
+msgid "Oak House - Section - Video"
+msgstr ""
+
+#: vc_default_templates.php:613
+msgid "Oak House - Section - Timeline"
+msgstr ""
+
+#: vc_default_templates.php:619
+msgid "Oak House - Section - Team"
+msgstr ""
+
+#: vc_default_templates.php:625
+msgid "Oak House - Section - Three-images heading"
+msgstr ""
+
+#: vc_default_templates.php:631
+msgid "Oak House - Section - Offer description"
+msgstr ""
+
+#: vc_default_templates.php:637
+msgid "Oak House - Section - Pricing table"
+msgstr ""
+
+#: vc_default_templates.php:643
+msgid "Oak House - Section - Doctor details"
+msgstr ""
+
+#: vc_default_templates.php:649
+msgid "Oak House - Section - Doctor certificates"
+msgstr ""
+
+#: vc_default_templates.php:655
+msgid "Oak House - Section - Nothing found"
+msgstr ""
+
+#: vc_default_templates.php:661
+msgid "Oak House - Section - Call to action"
+msgstr ""
+
+#: vc_default_templates.php:667
+msgid "Oak House - Section - Google map"
+msgstr ""
+
+#: vc_default_templates.php:673
+msgid "Oak House - Section - Contact details"
+msgstr ""
+
+#: vc_default_templates.php:679
+msgid "Oak House - Section - Contact form"
+msgstr ""
+
+#: vc_map.php:84 vc_map.php:2450
+msgid "Posts from all categories"
+msgstr ""
+
+#: vc_map.php:164 vc_map.php:388 vc_map.php:405 vc_map.php:419 vc_map.php:439
+#: vc_map.php:454 vc_map.php:469 vc_map.php:484 vc_map.php:499 vc_map.php:514
+#: vc_map.php:529 vc_map.php:544 vc_map.php:2094 vc_map.php:2111
+#: vc_map.php:2125 vc_map.php:2145 vc_map.php:2160 vc_map.php:2175
+#: vc_map.php:2190 vc_map.php:2205 vc_map.php:2220 vc_map.php:2235
+#: vc_map.php:2250 vc_map.php:2468 vc_map.php:2475 vc_map.php:2492
+#: vc_map.php:2506 vc_map.php:2526 vc_map.php:2541 vc_map.php:2556
+#: vc_map.php:2571 vc_map.php:2586 vc_map.php:2601 vc_map.php:2616
+#: vc_map.php:2631
+msgid "Button"
+msgstr ""
+
+#: vc_map.php:167 vc_map.php:326 vc_map.php:700 vc_map.php:725 vc_map.php:764
+#: vc_map.php:985 vc_map.php:1003 vc_map.php:1021 vc_map.php:1074
+#: vc_map.php:1372 vc_map.php:1528 vc_map.php:1608 vc_map.php:1626
+#: vc_map.php:1649 vc_map.php:1714 vc_map.php:1738 vc_map.php:1791
+#: vc_map.php:1830 vc_map.php:1860 vc_map.php:1992 vc_map.php:2018
+#: vc_map.php:2265 vc_map.php:2291 vc_map.php:2347 vc_map.php:2389
+#: vc_map.php:2434 vc_map.php:2646 vc_map.php:2696 vc_map.php:2731
+#: vc_map.php:2760 vc_map.php:2778 vc_map.php:2900 vc_map.php:2924
+#: vc_map.php:2959
+msgid "Oak House"
+msgstr ""
+
+#: vc_map.php:172 vc_map.php:381 vc_map.php:2087 widgets.php:366
+msgid "Button URL"
+msgstr ""
+
+#: vc_map.php:177 vc_map.php:392 vc_map.php:2098 vc_map.php:2479
+msgid "Button style"
+msgstr ""
+
+#: vc_map.php:180 vc_map.php:395 vc_map.php:2101 vc_map.php:2482
+msgid "Transparent (on light background)"
+msgstr ""
+
+#: vc_map.php:181 vc_map.php:396 vc_map.php:2102 vc_map.php:2483
+msgid "Transparent (on dark background)"
+msgstr ""
+
+#: vc_map.php:182 vc_map.php:397 vc_map.php:2103 vc_map.php:2484
+msgid "Filled color background"
+msgstr ""
+
+#: vc_map.php:183 vc_map.php:398 vc_map.php:2104 vc_map.php:2485
+msgid "Filled gray background"
+msgstr ""
+
+#: vc_map.php:189 vc_map.php:409 vc_map.php:2115 vc_map.php:2496
+msgid "Show button icon"
+msgstr ""
+
+#: vc_map.php:193 vc_map.php:413 vc_map.php:2119 vc_map.php:2500
+msgid "Yes, show icon after button text"
+msgstr ""
+
+#: vc_map.php:198 vc_map.php:423 vc_map.php:2129 vc_map.php:2510
+msgid "Button icon library"
+msgstr ""
+
+#: vc_map.php:201 vc_map.php:426 vc_map.php:568 vc_map.php:821 vc_map.php:1408
+#: vc_map.php:1871 vc_map.php:2132 vc_map.php:2513
+msgid "Font Awesome"
+msgstr ""
+
+#: vc_map.php:202 vc_map.php:427 vc_map.php:569 vc_map.php:822 vc_map.php:1409
+#: vc_map.php:1872 vc_map.php:2133 vc_map.php:2514
+msgid "Open Iconic"
+msgstr ""
+
+#: vc_map.php:203 vc_map.php:428 vc_map.php:570 vc_map.php:823 vc_map.php:1410
+#: vc_map.php:1873 vc_map.php:2134 vc_map.php:2515
+msgid "Typicons"
+msgstr ""
+
+#: vc_map.php:204 vc_map.php:429 vc_map.php:571 vc_map.php:824 vc_map.php:1411
+#: vc_map.php:1874 vc_map.php:2135 vc_map.php:2516
+msgid "Entypo"
+msgstr ""
+
+#: vc_map.php:205 vc_map.php:430 vc_map.php:572 vc_map.php:825 vc_map.php:1412
+#: vc_map.php:1875 vc_map.php:2136 vc_map.php:2517
+msgid "Linecons"
+msgstr ""
+
+#: vc_map.php:206 vc_map.php:431 vc_map.php:573 vc_map.php:826 vc_map.php:1413
+#: vc_map.php:1876 vc_map.php:2137 vc_map.php:2518
+msgid "Mono Social"
+msgstr ""
+
+#: vc_map.php:207 vc_map.php:432 vc_map.php:574 vc_map.php:827 vc_map.php:1414
+#: vc_map.php:1877 vc_map.php:2138 vc_map.php:2519
+msgid "Material"
+msgstr ""
+
+#: vc_map.php:217 vc_map.php:231 vc_map.php:245 vc_map.php:259 vc_map.php:273
+#: vc_map.php:287 vc_map.php:301 vc_map.php:443 vc_map.php:458 vc_map.php:473
+#: vc_map.php:488 vc_map.php:503 vc_map.php:518 vc_map.php:533 vc_map.php:2149
+#: vc_map.php:2164 vc_map.php:2179 vc_map.php:2194 vc_map.php:2209
+#: vc_map.php:2224 vc_map.php:2239 vc_map.php:2530 vc_map.php:2545
+#: vc_map.php:2560 vc_map.php:2575 vc_map.php:2590 vc_map.php:2605
+#: vc_map.php:2620 widgets.php:373
+msgid "Button icon"
+msgstr ""
+
+#: vc_map.php:323
+msgid "Call to action with icon"
+msgstr ""
+
+#: vc_map.php:334 vc_map.php:709 vc_map.php:732 vc_map.php:773 vc_map.php:1083
+#: vc_map.php:1128 vc_map.php:1194 vc_map.php:1256 vc_map.php:1314
+#: vc_map.php:1633 vc_map.php:1722 vc_map.php:2060 vc_map.php:2737
+#: vc_map.php:2908 vc_map.php:2931 widgets.php:70 widgets.php:345
+msgid "Title"
+msgstr ""
+
+#: vc_map.php:337 vc_map.php:341 vc_map.php:344 vc_map.php:354 vc_map.php:364
+#: vc_map.php:374 vc_map.php:776 vc_map.php:780 vc_map.php:783 vc_map.php:790
+#: vc_map.php:801 vc_map.php:811 vc_map.php:1175 vc_map.php:1238
+#: vc_map.php:1297 vc_map.php:1350 vc_map.php:2063 vc_map.php:2070
+#: vc_map.php:2080 vc_map.php:2443 vc_map.php:2451 vc_map.php:2461
+#: vc_map.php:2787 vc_map.php:2943 vc_map.php:2965 widgets.php:352
+msgid "Content"
+msgstr ""
+
+#: vc_map.php:348 vc_map.php:2074 vc_map.php:2455
+msgid "Display button"
+msgstr ""
+
+#: vc_map.php:352 vc_map.php:2078 vc_map.php:2459
+msgid "Display button?"
+msgstr ""
+
+#: vc_map.php:358
+msgid "Display additional link near the button"
+msgstr ""
+
+#: vc_map.php:362
+msgid "Display additional link near the button?"
+msgstr ""
+
+#: vc_map.php:368
+msgid "Display background icon"
+msgstr ""
+
+#: vc_map.php:372 vc_map.php:805
+msgid "Display background icon?"
+msgstr ""
+
+#: vc_map.php:551 vc_map.php:558
+msgid "Additional link"
+msgstr ""
+
+#: vc_map.php:565 vc_map.php:818
+msgid "Background icon library"
+msgstr ""
+
+#: vc_map.php:581 vc_map.php:585 vc_map.php:596 vc_map.php:600 vc_map.php:611
+#: vc_map.php:615 vc_map.php:626 vc_map.php:630 vc_map.php:641 vc_map.php:645
+#: vc_map.php:656 vc_map.php:660 vc_map.php:671 vc_map.php:675 vc_map.php:686
+#: vc_map.php:834 vc_map.php:838 vc_map.php:849 vc_map.php:853 vc_map.php:864
+#: vc_map.php:868 vc_map.php:879 vc_map.php:883 vc_map.php:894 vc_map.php:898
+#: vc_map.php:909 vc_map.php:913 vc_map.php:924 vc_map.php:928 vc_map.php:939
+msgid "Background icon"
+msgstr ""
+
+#: vc_map.php:698
+msgid "Contact details box"
+msgstr ""
+
+#: vc_map.php:723
+msgid "Contact details box: element"
+msgstr ""
+
+#: vc_map.php:738
+msgid "Value"
+msgstr ""
+
+#: vc_map.php:744
+msgid "Size"
+msgstr ""
+
+#: vc_map.php:747 vc_map.php:1772 vc_map.php:2328
+msgid "Normal"
+msgstr ""
+
+#: vc_map.php:748
+msgid "Bigger"
+msgstr ""
+
+#: vc_map.php:762
+msgid "Contact form"
+msgstr ""
+
+#: vc_map.php:787
+msgid "Contact form shortcode"
+msgstr ""
+
+#: vc_map.php:794
+msgid "Background image side"
+msgstr ""
+
+#: vc_map.php:797
+msgid "Left side"
+msgstr ""
+
+#: vc_map.php:798
+msgid "Right side"
+msgstr ""
+
+#: vc_map.php:809
+msgid "Yes, display background icon"
+msgstr ""
+
+#: vc_map.php:946 vc_map.php:948 vc_map.php:956 vc_map.php:964 vc_map.php:971
+#: vc_map.php:1660 vc_map.php:1662 vc_map.php:1668 vc_map.php:2030
+#: vc_map.php:2038 vc_map.php:2046 vc_map.php:2053 vc_map.php:2654
+#: vc_map.php:2986 vc_map.php:2988 vc_map.php:2996 vc_map.php:3004
+#: vc_map.php:3010
+msgid "Background image"
+msgstr ""
+
+#: vc_map.php:952 vc_map.php:2034 vc_map.php:2659 vc_map.php:2992
+msgid "Vertical position of background image"
+msgstr ""
+
+#: vc_map.php:960 vc_map.php:2042 vc_map.php:2666 vc_map.php:3000
+msgid "Horizontal position of background image"
+msgstr ""
+
+#: vc_map.php:968 vc_map.php:1058 vc_map.php:1559 vc_map.php:1591
+#: vc_map.php:1764 vc_map.php:2050 vc_map.php:2319 vc_map.php:2818
+#: vc_map.php:2850 vc_map.php:2882
+msgid "Image alternative text"
+msgstr ""
+
+#: vc_map.php:983
+msgid "Content box"
+msgstr ""
+
+#: vc_map.php:1001
+msgid "Content centered"
+msgstr ""
+
+#: vc_map.php:1019
+msgid "Content with image on left/right side"
+msgstr ""
+
+#: vc_map.php:1029
+msgid "Image side"
+msgstr ""
+
+#: vc_map.php:1032
+msgid "Left"
+msgstr ""
+
+#: vc_map.php:1033
+msgid "Right"
+msgstr ""
+
+#: vc_map.php:1044 vc_map.php:1543 vc_map.php:1575 vc_map.php:1750
+#: vc_map.php:2303 vc_map.php:2802 vc_map.php:2834 vc_map.php:2866
+msgid "Vertical position of image"
+msgstr ""
+
+#: vc_map.php:1051 vc_map.php:1551 vc_map.php:1583 vc_map.php:1757
+#: vc_map.php:2311 vc_map.php:2810 vc_map.php:2842 vc_map.php:2874
+msgid "Horizontal position of image"
+msgstr ""
+
+#: vc_map.php:1086 vc_map.php:1093 vc_map.php:1100 vc_map.php:1107
+#: vc_map.php:1121
+msgid "Title and motto"
+msgstr ""
+
+#: vc_map.php:1090
+msgid "Motto"
+msgstr ""
+
+#: vc_map.php:1097
+msgid "Motto author"
+msgstr ""
+
+#: vc_map.php:1104
+msgid "Motto author title"
+msgstr ""
+
+#: vc_map.php:1111
+msgid "Certificates number"
+msgstr ""
+
+#: vc_map.php:1114
+msgid "Do not display certificates"
+msgstr ""
+
+#: vc_map.php:1140 vc_map.php:1155 vc_map.php:1171 vc_map.php:1187
+msgid "Certificate 1"
+msgstr ""
+
+#: vc_map.php:1144 vc_map.php:1209 vc_map.php:1270 vc_map.php:1326
+msgid "URL"
+msgstr ""
+
+#: vc_map.php:1159 vc_map.php:1223 vc_map.php:1283 vc_map.php:1338
+#: vc_map.php:2937
+msgid "Date"
+msgstr ""
+
+#: vc_map.php:1205 vc_map.php:1219 vc_map.php:1234 vc_map.php:1249
+msgid "Certificate 2"
+msgstr ""
+
+#: vc_map.php:1266 vc_map.php:1279 vc_map.php:1293 vc_map.php:1307
+msgid "Certificate 3"
+msgstr ""
+
+#: vc_map.php:1322 vc_map.php:1334 vc_map.php:1346 vc_map.php:1358
+msgid "Certificate 4"
+msgstr ""
+
+#: vc_map.php:1370
+msgid "Document"
+msgstr ""
+
+#: vc_map.php:1378
+msgid "Document title"
+msgstr ""
+
+#: vc_map.php:1384
+msgid "Document sub-title"
+msgstr ""
+
+#: vc_map.php:1390
+msgid "Document URL"
+msgstr ""
+
+#: vc_map.php:1396
+msgid "Open document in new tab?"
+msgstr ""
+
+#: vc_map.php:1400
+msgid "Yes, open this document in new tab"
+msgstr ""
+
+#: vc_map.php:1405 vc_map.php:1868
+msgid "Icon library"
+msgstr ""
+
+#: vc_map.php:1420 vc_map.php:1434 vc_map.php:1448 vc_map.php:1462
+#: vc_map.php:1476 vc_map.php:1490 vc_map.php:1504 vc_map.php:1883
+#: vc_map.php:1897 vc_map.php:1911 vc_map.php:1925 vc_map.php:1939
+#: vc_map.php:1953 vc_map.php:1967
+msgid "Icon"
+msgstr ""
+
+#: vc_map.php:1526
+msgid "Double images"
+msgstr ""
+
+#: vc_map.php:1539 vc_map.php:1547 vc_map.php:1555 vc_map.php:1562
+msgid "Left image"
+msgstr ""
+
+#: vc_map.php:1571 vc_map.php:1579 vc_map.php:1587 vc_map.php:1594
+#: vc_map.php:2862 vc_map.php:2870 vc_map.php:2878 vc_map.php:2885
+msgid "Right image"
+msgstr ""
+
+#: vc_map.php:1606
+msgid "FAQ"
+msgstr ""
+
+#: vc_map.php:1624
+msgid "FAQ group title"
+msgstr ""
+
+#: vc_map.php:1647
+msgid "FAQ (short)"
+msgstr ""
+
+#: vc_map.php:1666 vc_map.php:2673 vc_map.php:3008
+msgid "Background image alternative text"
+msgstr ""
+
+#: vc_map.php:1675
+msgid "More than 1200px width screens"
+msgstr ""
+
+#: vc_map.php:1678 vc_map.php:1685 vc_map.php:1692 vc_map.php:1699
+msgid "Background image position"
+msgstr ""
+
+#: vc_map.php:1682
+msgid "992px - 1199px width screens"
+msgstr ""
+
+#: vc_map.php:1689
+msgid "768px - 991px width screens (tablets)"
+msgstr ""
+
+#: vc_map.php:1696
+msgid "Less than 767px width screens (smartphones)"
+msgstr ""
+
+#: vc_map.php:1736
+msgid "Gallery element"
+msgstr ""
+
+#: vc_map.php:1769
+msgid "Image size"
+msgstr ""
+
+#: vc_map.php:1773
+msgid "Double image width"
+msgstr ""
+
+#: vc_map.php:1774
+msgid "Double image height"
+msgstr ""
+
+#: vc_map.php:1775
+msgid "Double image width and height"
+msgstr ""
+
+#: vc_map.php:1789
+msgid "Google maps"
+msgstr ""
+
+#: vc_map.php:1800 vc_map.php:1837
+msgid "Latitude"
+msgstr ""
+
+#: vc_map.php:1806 vc_map.php:1843
+msgid "Longitude"
+msgstr ""
+
+#: vc_map.php:1809 vc_map.php:1846
+msgid "How to get map coordinates?"
+msgstr ""
+
+#: vc_map.php:1813
+msgid "Zoom"
+msgstr ""
+
+#: vc_map.php:1828
+msgid "Google maps: marker"
+msgstr ""
+
+#: vc_map.php:1858
+msgid "Gray section with icon"
+msgstr ""
+
+#: vc_map.php:2000 vc_map.php:2273 vc_map.php:2678
+msgid "Interval"
+msgstr ""
+
+#: vc_map.php:2002 vc_map.php:2680
+msgid "Interval between each slides change, in miliseconds."
+msgstr ""
+
+#: vc_map.php:2016
+msgid "Heading slider single slide"
+msgstr ""
+
+#: vc_map.php:2028
+msgid "Slider background image"
+msgstr ""
+
+#: vc_map.php:2067
+msgid "Sub-title"
+msgstr ""
+
+#: vc_map.php:2262
+msgid "Images"
+msgstr ""
+
+#: vc_map.php:2275
+msgid "Interval between each images change, in miliseconds."
+msgstr ""
+
+#: vc_map.php:2289
+msgid "Single image"
+msgstr ""
+
+#: vc_map.php:2325
+msgid "Image height"
+msgstr ""
+
+#: vc_map.php:2329
+msgid "Long"
+msgstr ""
+
+#: vc_map.php:2344
+msgid "Pricing table"
+msgstr ""
+
+#: vc_map.php:2355
+msgid "Title: column 1"
+msgstr ""
+
+#: vc_map.php:2361
+msgid "Title: column 2"
+msgstr ""
+
+#: vc_map.php:2367
+msgid "Title: column 3"
+msgstr ""
+
+#: vc_map.php:2373
+msgid "Title: column 4"
+msgstr ""
+
+#: vc_map.php:2386
+msgid "Pricing table element"
+msgstr ""
+
+#: vc_map.php:2395
+msgid "Row title"
+msgstr ""
+
+#: vc_map.php:2401
+msgid "Value: column 1"
+msgstr ""
+
+#: vc_map.php:2407
+msgid "Value: column 2"
+msgstr ""
+
+#: vc_map.php:2413
+msgid "Value: column 3"
+msgstr ""
+
+#: vc_map.php:2419
+msgid "Value: column 4"
+msgstr ""
+
+#: vc_map.php:2432
+msgid "Recent news"
+msgstr ""
+
+#: vc_map.php:2440
+msgid "Section title"
+msgstr ""
+
+#: vc_map.php:2447
+msgid "Posts category:"
+msgstr ""
+
+#: vc_map.php:2643
+msgid "References slider"
+msgstr ""
+
+#: vc_map.php:2694
+msgid "References slider single slide"
+msgstr ""
+
+#: vc_map.php:2703
+msgid "Reference content"
+msgstr ""
+
+#: vc_map.php:2709
+msgid "Reference author name"
+msgstr ""
+
+#: vc_map.php:2715
+msgid "Reference author title"
+msgstr ""
+
+#: vc_map.php:2729
+msgid "Round progress bar"
+msgstr ""
+
+#: vc_map.php:2743
+msgid "Progress bar value"
+msgstr ""
+
+#: vc_map.php:2758
+msgid "Sidebar"
+msgstr ""
+
+#: vc_map.php:2776
+msgid "Three images header"
+msgstr ""
+
+#: vc_map.php:2798 vc_map.php:2806 vc_map.php:2814 vc_map.php:2821
+msgid "Left-top image"
+msgstr ""
+
+#: vc_map.php:2830 vc_map.php:2838 vc_map.php:2846 vc_map.php:2853
+msgid "Left-bottom image"
+msgstr ""
+
+#: vc_map.php:2897
+msgid "Timeline"
+msgstr ""
+
+#: vc_map.php:2922
+msgid "Timeline element"
+msgstr ""
+
+#: vc_map.php:2968 vc_map.php:2975 vc_map.php:2982
+msgid "General"
+msgstr ""
+
+#: vc_map.php:2972
+msgid "Video URL"
+msgstr ""
+
+#: vc_map.php:2979
+msgid "Video length"
+msgstr ""
+
+#: widgets.php:40
+msgid "Oak House: Popular posts"
+msgstr ""
+
+#: widgets.php:43
+msgid ""
+"This widget is dedicated to display your most popular posts by comment count."
+msgstr ""
+
+#: widgets.php:77
+msgid "Posts number"
+msgstr ""
+
+#: widgets.php:172
+msgid "Limited offer"
+msgstr ""
+
+#: widgets.php:201
+msgid "Not found any posts"
+msgstr ""
+
+#: widgets.php:305
+msgid "Oak House: Call to action"
+msgstr ""
+
+#: widgets.php:308
+msgid "This widget is dedicated to display \"call to action\" box."
+msgstr ""
+
+#: widgets.php:359
+msgid "Button text"
+msgstr ""
+
+#: widgets.php:380
+msgid "Open button URL in new tab?"
+msgstr ""
+
+#: widgets.php:384
+msgid "Yes, open button URL in new tab"
+msgstr ""
+
+#: widgets.php:406
+msgid "Widget background image"
+msgstr ""
+
+#: widgets.php:409
+msgid "Select image"
+msgstr ""
+
+#: widgets.php:415
+msgid "Responsive image: more than 1200px width screens"
+msgstr ""
+
+#: widgets.php:422
+msgid "Responsive image: 992px - 1199px width screens"
+msgstr ""
+
+#: widgets.php:429
+msgid "Responsive image: 768px - 991px width screens (tablets)"
+msgstr ""
+
+#: widgets.php:436
+msgid "Responsive image: 431px - 767px width screens (smartphones)"
+msgstr ""
+
+#: widgets.php:443
+msgid "Responsive image: less than 430px width screens (small smartphones)"
+msgstr ""
+
+#: widgets.php:635
+msgid "Oak House: Alternative style menu"
+msgstr ""
+
+#: widgets.php:638
+msgid ""
+"This widget is dedicated to display sidebar menu with alternative style "
+"option."
+msgstr ""
+
+#: widgets.php:733
+msgid "No menus have been created yet."
+msgstr ""
+
+#: widgets.php:733
+msgid "Create some"
+msgstr ""
+
+#: widgets.php:743
+msgid "Title:"
+msgstr ""
+
+#: widgets.php:750
+msgid "Select Menu:"
+msgstr ""
+
+#: widgets.php:753
+msgid "Select"
+msgstr ""
+
+#: widgets.php:780
+msgid "Edit Menu"
+msgstr ""
+
+#: wordpress-importer.php:131 wordpress-importer.php:140
+#: wordpress-importer.php:191 wordpress-importer.php:195
+#: wordpress-importer.php:204
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: wordpress-importer.php:132
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: wordpress-importer.php:175
+msgid "All done."
+msgstr ""
+
+#: wordpress-importer.php:175
+msgid "Have fun!"
+msgstr ""
+
+#: wordpress-importer.php:176
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: wordpress-importer.php:196
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: wordpress-importer.php:212
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: wordpress-importer.php:237
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: wordpress-importer.php:263
+msgid "Assign Authors"
+msgstr ""
+
+#: wordpress-importer.php:264
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: wordpress-importer.php:266
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: wordpress-importer.php:276
+msgid "Import Attachments"
+msgstr ""
+
+#: wordpress-importer.php:279
+msgid "Download and import file attachments"
+msgstr ""
+
+#: wordpress-importer.php:283
+msgid "Submit"
+msgstr ""
+
+#: wordpress-importer.php:296
+msgid "Import author:"
+msgstr ""
+
+#: wordpress-importer.php:307
+msgid "or create new user with login name:"
+msgstr ""
+
+#: wordpress-importer.php:310
+msgid "as a new user:"
+msgstr ""
+
+#: wordpress-importer.php:318
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: wordpress-importer.php:320
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: wordpress-importer.php:321
+msgid "- Select -"
+msgstr ""
+
+#: wordpress-importer.php:371
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: wordpress-importer.php:466
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: wordpress-importer.php:515 wordpress-importer.php:737
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: wordpress-importer.php:604
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: wordpress-importer.php:641
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: wordpress-importer.php:703
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: wordpress-importer.php:868
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: wordpress-importer.php:875
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: wordpress-importer.php:938
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: wordpress-importer.php:951
+msgid "Invalid file type"
+msgstr ""
+
+#: wordpress-importer.php:1064
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: wordpress-importer.php:1077
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: wordpress-importer.php:1082
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: wordpress-importer.php:1088
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: wordpress-importer.php:1186
+msgid "Import WordPress"
+msgstr ""
+
+#: wordpress-importer.php:1193
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: wordpress-importer.php:1208
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: wordpress-importer.php:1209
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: wordpress-importer.php:1284
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""

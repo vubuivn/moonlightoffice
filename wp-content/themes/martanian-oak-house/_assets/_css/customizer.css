@@ -1,0 +1,42 @@
+#customize-controls li.customize-control-checkbox#customize-control-martanian_oak_house_section_top_header_bar_customizer_contact_details_phone_number_in_new_tab,
+#customize-controls li.customize-control-checkbox#customize-control-martanian_oak_house_section_top_header_bar_customizer_contact_details_email_address_in_new_tab,
+#customize-controls li.customize-control-checkbox#customize-control-martanian_oak_house_section_top_header_bar_customizer_contact_details_location_in_new_tab {
+    margin-top: -10px;
+}
+
+#customize-controls label.martanian-oak-house-customizer-icon-field span.description {
+    margin: -7px 0 10px 0;
+    display: block;
+}
+
+#customize-controls label.martanian-oak-house-customizer-icon-field span.description i.fa.fa-external-link {
+    font-size: 10px;
+    vertical-align: top;
+}
+
+#customize-controls div.martanian-oak-house-customizer-line {
+    border-top: 1px dashed #ddd;
+    margin: 20px 0 2px 0;
+}
+
+#customize-controls li.customize-control-icon:last-child div.martanian-oak-house-customizer-line {
+    display: none;
+}
+
+#customize-controls .widget-content .martanian-oak-house-custom-widget-form p.martanian-oak-house-in-new-tab-checkbox {
+    margin-top: -5px;
+}
+
+#customize-controls .widget-content .martanian-oak-house-custom-widget-form div.martanian-oak-house-customizer-line {
+    margin: 25px 0;
+}
+
+#customize-controls .widget-content .martanian-oak-house-custom-widget-form span.description {
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+#available-widgets [class*=martanian_oak_house_] .widget-title:before {
+    content: "\f132";
+    color: #B41FCE;
+}
