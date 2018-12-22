@@ -241,12 +241,12 @@ jQuery( document ).ready( function( $ ) {
         *
         */
 
-        $( '#loader' ).animate({ 'opacity': 0 }, 300 );
-        setTimeout( function() {
+        // $( '#loader' ).animate({ 'opacity': 0 }, 300 );
+        // setTimeout( function() {
 
-            $( '#loader' ).remove();
+        //     $( '#loader' ).remove();
 
-        }, 600 );
+        // }, 600 );
 
        /**
         *

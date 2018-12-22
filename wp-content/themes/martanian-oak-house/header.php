@@ -10,12 +10,12 @@
 </head>
 <body <?php body_class(); ?>>
 
-    <div id="loader">
+    <<!-- div id="loader">
 
         <div class="loader-spinner">
         </div>
 
-    </div>
+    </div> -->
 
     <div id="fb-root">
     </div>
