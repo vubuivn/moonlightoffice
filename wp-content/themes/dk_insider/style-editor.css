@@ -1,0 +1,190 @@
+:root {
+  --bg-color:     		#FBFBFB;
+  --widgets-bg-color: 	#F5F5F5;
+  --header-bg-color:   	#202523;
+  --accent-color:   	#29ab82;
+  --line-color:   		#DFDFDF;
+  --text-color:   		#000000;
+}
+
+/* ******************* */
+/* Basic Browser Reset */
+/* ******************* */
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, #footer, #header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline;}
+article, aside, details, figcaption, figure, #footer, #header, hgroup, menu, nav, section {display: block;}
+nav ul {list-style: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+/* ********* */
+/* Box Model */
+/* ********* */
+*, *:after, *::before {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-font-smoothing: antialiased;}
+
+/* ************* */
+/* Wysiwyg area */
+/* ************* */
+body {width: 100%;height: 100%;overflow-x: hidden;background: var(--bg-color);color: var(--text-color);font-size: 1rem;letter-spacing: -0.0125em;font-weight: 200;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-shadow: 0 0 0 transparent;}
+body#tinymce {padding: 2em 3em !important; max-width: calc(700px + 6em);}
+
+.wp-block {
+    max-width: 700px;
+    font-size: 110%;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"], 
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.wp-block .wp-block { font-size: 100%; }
+
+.editor-post-title__block .editor-post-title__input { font-size: 3.55em; font-weight: 400; max-width: 25ch; line-height: 1.2; margin: 16px 0 24px; }
+
+/* ******** */
+/* Headings */
+/* ******** */
+h1, h2, h3, h4, h5, h6 {font-weight: 700; clear: both;}
+h1 {font-size: 1.85em; margin: 0 0 16px; line-height: 1.35;}
+h2 {font-size: 1.75em; margin: 16px 0 24px; line-height: 1.45; }
+h3 {font-size: 1.1em; margin: 16px 0; line-height: 1.45;  }
+h4 {font-size: 1.10em; margin: 16px 0; line-height: 1.45;}
+h5 {font-size: 1em; margin: 16px 0; line-height: 1.45;}
+h6 {font-size: .9em; margin: 16px 0; line-height: 1.45;}
+
+/* ********** */
+/* Paragraphs */
+/* ********** */
+p {padding: 0 0 32px; line-height: 1.95; font-size: 1em; opacity: .85;}
+ul, ol {padding: 0 0 32px 32px; line-height: 1.95; font-size: 1em; list-style: disc;}
+ol {list-style: decimal;}
+address {padding-bottom: 32px; line-height: 1.95;}
+strong, input, button, .button, caption {font-weight: 700;}
+nav ul {list-style: none; padding: 0;}
+em {font-style: italic; font-family: Times, serif; font-weight: normal;}
+ul ul, ol ol {padding-bottom: 0;}
+dl {clear: both; display: table; width: 100%; margin: 0 0 2em;}
+dt, dd {line-height: 1.6;}
+dd {padding-bottom: 1.6em;}
+sub {font-size: .6em; vertical-align: bottom;}
+sup {font-size: .6em; vertical-align: super;}
+pre {display: inline-block; background: white; margin: 0 0 2em; padding: 2em 2.5em; border: 1px dashed var(--line-color); white-space: pre-wrap; font-family: monospace; line-height: 1.95;}
+code {font-family: "Courier New"; font-size: 85%;}
+mark {background: black; color: white; padding: 0 .5em; font-size: 700;}
+.uppercase {text-transform: uppercase; font-size: 1em; clear: both;}
+.screen-reader-text {visibility: hidden; font-size: 0;}
+.rsswidget img, img.wp-smiley {margin: 0;}
+.rss-date {display: block; font-size: 9pt; padding: 4px 0;}
+h6 + hr {margin-top: 2em;}
+p.wp-block-subhead {font-style: normal; font-size: 1.5em; line-height: 1.45;}
+
+/* ***** */
+/* Links */
+/* ***** */
+a {color: var(--accent-color); text-decoration: none; transition: all .2s ease-out; cursor: pointer;}
+p a, li a {background-image: linear-gradient(to bottom, var(--accent-color) 50%, rgba(0, 0, 0, 0) 50%); background-repeat: repeat-x; background-size: 2px 2px; background-position: 0 1.27em;}
+p a:hover, li a:hover {border-bottom-color: transparent; color: inherit;}
+p a.button:hover, li a.button:hover {background: var(--accent-color); color: white;}
+nav li a {border-bottom: 0;}
+.ui-state-active { background: var(--accent-color); }
+
+/* ****** */
+/* Images */
+/* ****** */
+img, iframe {border: 0; margin: 0; max-width: 100%; height: auto;}
+iframe {width: 640px; height: 380px; margin: 0 auto; display: block;}
+p img, h2 img {vertical-align: middle;}
+img.alignleft {margin: 8px 24px 24px 0;}
+img.alignright {margin: 8px 0 24px 24px;}
+img.aligncenter {display: block;}
+img.emoji {width: 16px; margin: 0; vertical-align: baseline; opacity: 1 !important;
+     filter: none !important;}
+p.alignleft, div.alignleft, figure.alignleft, .wp-block-image .alignleft {margin-right: 2em;}
+p.alignright, div.alignright, figure.alignright, .wp-block-image .alignright {margin-left: 2em;}
+figure {padding: 0 0 32px; background: url('imgs/loading-circle.svg') no-repeat center center; background-size: 36px 36px;}
+figure.alignnone, figure.aligncenter, .wp-block-image figure.aligncenter {min-width: calc(100% + 4em); margin: 16px -2em; position: relative;}
+figure img {margin: 0; opacity: 1 !important; filter: none !important;}
+.wp-caption {max-width: 100%;}
+img.size-full + .wp-caption-text {text-align: center; padding: 1em 0 0;}
+.wp-caption-text, .wp-block-image figcaption, .wp-block-embed figcaption {font-size: 11pt; opacity: .5; text-align: center; padding: 1em 0 0; margin: 1em 0 0; line-height: 1.7; color: inherit; }
+figure.alignnone .wp-caption-text, .wp-block-image figure.aligncenter figcaption {position: absolute; right: -12em; width: 10em; text-align: left; bottom: 3em; word-break: break-word; border-top: 1px solid rgba(0, 0, 0, .3);}
+.wp-block-column .wp-block-image figcaption {font-size: .875em;/* opacity: 1; */padding-top: 0;border: 0;}
+li figure {padding: 0;}
+.wp-block-gallery {margin: 2em 0;}
+p + ul.wp-block-gallery {margin-top: 0;}
+.wp-block-image img, .wp-block-gallery .blocks-gallery-image img, 
+.wp-block-gallery .blocks-gallery-item img {opacity: 1; filter: none;	}
+.wp-block-image.alignfull figcaption, .wp-block-embed figcaption, .wp-block-image figure.alignright figcaption, .wp-block-image figure.aligleft figcaption {border: 0;}
+.wp-block-image figure.alignright figcaption, .wp-block-image figure.aligleft figcaption {margin-top: 0; padding-top: 0; margin-bottom: 2em;}
+.wp-block-gallery .blocks-gallery-image figcaption, 
+.wp-block-gallery .blocks-gallery-item figcaption {background: rgba(255,255,255,.85); color: inherit; font-size: .85em; padding: 1em; opacity: .6;}
+
+/* ****** */
+/* Tables */
+/* ****** */
+table {width: 100%; border-collapse: collapse; border: 1px solid var(--line-color); background: white; box-shadow: 0 3px 7px var(--line-color); margin: 0 0 2em; clear: both; padding: 2em 2em 1em 2em;}
+table th {border-bottom: 1px solid var(--line-color); padding: 13px; text-align: left; font-weight: 600;}
+table td {border-bottom: 1px solid var(--line-color); padding: 13px; vertical-align: middle; opacity: .85;}
+#today {background: #39DA81; color: white; text-align: center; border-radius: 4px;}
+table#wp-calendar tbody a {padding: 5px 0; display: block; margin: -5px; color: white; text-align: center;}
+table#wp-calendar td, table#wp-calendar th {text-align: center;}
+table#wp-calendar caption {padding: 0 0 24px; text-align: left;}
+table #prev {text-align: left;}
+table #next {text-align: right;}
+
+/* ****** */
+/* Embeds */
+/* ****** */
+figure.wp-block-embed {margin-bottom: 0; padding-bottom: 1em;}
+.wp-block-embed__wrapper {position: relative; overflow: hidden; padding-top: 56.25%;}
+.wp-block-embed__wrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.wp-block-audio {background: none;}
+
+/* ******* */
+/* Columns */
+/* ******* */
+.wp-block-columns {width: calc(100% + 32px); position: relative; left: -16px;}
+.wp-block-column {margin: 1em 0 2em; font-size: .85em; padding: 0 16px !important;}
+.wp-block-column .wp-block-image {margin-bottom: 0; padding: 0;}
+.wp-block-columns.alignwide {width: calc(100vw + 32px);}
+
+/* ********* */
+/* Alignment */
+/* ********* */
+.clear {clear: both;}
+.alignleft {float: left;}
+.alignright {float: right;}
+.aligncenter {text-align: center; margin-left: auto; margin-right: auto; list-style: none;}
+.aligncenter > * {text-align: center;}
+.alignright > * {text-align: right;}
+.justify {text-align: justify;}
+.justifyleft {text-align: left;}
+.justifyright {text-align: right;}
+.alignfull, .alignwide {margin-left: calc(-100vw / 2 + 100% / 2); margin-right: calc(-100vw / 2 + 100% / 2); max-width: 100vw; width: auto;}
+.alignwide {max-width: 9999px; padding-left: 7vw; padding-right: 7vw; width: 100vw;}
+div.alignleft {margin: 8px 2em 2em 0;}
+div.alignright {margin-left: 8px 0 2em 2em;}
+div.aligncenter {margin: 8px 0 2em;}
+.wp-block-image.alignwide, .wp-block-image.alignfull {margin-bottom: 2em;}
+
+/* ********** */
+/* Separators */
+/* ********** */
+hr {clear: both; background: var(--line-color); height: 2px; border: 0; margin: 1em 0 2em;}
+.wp-block-separator.is-style-wide {background: transparent; height: 2em;}
+
+/* *********** */
+/* Blockquotes */
+/* *********** */
+blockquote {clear: both; position: relative; padding: 0 4em 0 2em; font-style: italic; margin: 0 0 32px -2em; float: left; max-width: 20em; text-align: left; border: 0 !important; }
+blockquote::before {content: ""; position: absolute; left: 0; background: #00a95f; width: 2px; height: 100%; display: block;}
+cite {display: block; font-style: normal; font-size: .8em !important; opacity: .8;}
+.alignright blockquote {margin: 0 -2em 32px 0; padding: 0 2em 0 4em;}
+.alignright blockquote::before {left: auto; right: 0;}
+.wp-block-quote.is-large, .wp-block-quote.is-style-large, .wp-block-pullquote.aligncenter blockquote, .alignwide blockquote, .alignfull blockquote {float: none; margin: 0 3em 2em 5em; max-width: 100%; padding-left: 2em;}
+.wp-block-pullquote {text-align: left; margin-bottom: 2em;}
+.wp-block-pullquote.alignnone {padding: 0.5em 2em 0; margin-left: -2em;}
+.wp-block-pullquote.aligncenter {padding: 0 0 1em 0;}
+.wp-block-pullquote p {font-size: 1.1em;}
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {font-size: 1.5em;}
+.wp-block-quote:not(.is-large):not(.is-style-large) { padding-left: 2em; }

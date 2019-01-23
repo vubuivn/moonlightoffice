@@ -1,0 +1,128 @@
+/* __________________________________ 
+	
+	Styling for Events Calendar
+_____________________________________ */
+
+/* ************ */
+/* Single Event */
+/* ************ */
+
+.events-single .entry-author {
+	display: none;
+}
+
+/* *********** */
+/* Plural View */
+/* *********** */
+
+.events-archive .entry-content,
+.events-archive .entry-header {
+	width: 100%;
+}
+h2.tribe-events-list-separator-month {
+	flex: 100%;
+	margin: 4em 0 0;
+}
+.tribe-events-list {
+	margin-top: -4em;
+}
+
+/* ********** */
+/* Filter Bar */
+/* ********** */
+
+#tribe-bar-form {
+	display: flex;
+	margin: 0 0 2em;
+	flex-wrap: wrap;
+}
+.tribe-bar-filters {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.form-col:first-child {
+	width: 33%;
+	min-width: 30ch;
+	padding-bottom: 2em;
+}
+.tribe-bar-filters label {
+	height: 0;
+	font-size: 0;
+	position: absolute;
+}
+.tribe-bar-filters input {
+	margin: 0 !important;
+}
+.form-col .uppercase {
+	font-size: .8em;
+	letter-spacing: 0.1em;
+	opacity: .4;
+	display: block;
+	padding: 0 0 10px;
+}
+.form-col em {
+	font-size: 2.15em;
+	font-style: normal;
+	line-height: 1.25;
+}
+.tribe-bar-filters > div {
+	margin: 0 0 1em 2em;
+}
+.tribe-events-button {
+	margin: 0 !important;
+}
+
+/* ********** */
+/* Datepicker */
+/* ********** */
+
+table.ui-datepicker-calendar td {
+	border-bottom: 0;
+	padding: 1px;
+	text-align: center;
+}
+table.ui-datepicker-calendar td a {
+	padding: 5px;
+	border-radius: 4px;
+	display: block;
+	opacity: .85;
+}
+.ui-datepicker a:hover {
+	opacity: 1;
+	font-weight: bold;
+}
+.ui-datepicker-today {
+	background: #39DA81;
+}
+.ui-datepicker-today a,
+.ui-state-active {
+	color: white;
+}
+.ui-datepicker-header {
+	border: 1px solid rgba(0, 0, 0, .1);
+	background: white;
+	display: flex;
+	padding: 10px;
+	margin-bottom: -2px;
+	font-weight: 700;
+}
+.ui-datepicker-header > a {
+	display: block;
+	font-size: 0;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	margin-left: auto;
+	order: 2;
+}
+.ui-datepicker-header > a::after {
+	content: ">";
+	color: inherit;
+	font-size: 12pt;
+}
+.ui-datepicker-header > a.ui-datepicker-prev::after {
+	content: "<";
+}

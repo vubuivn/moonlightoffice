@@ -6778,4 +6778,4 @@ footer p a:hover {
     footer p {
         text-align: left;
     }
-}
+}.entry-content img { height: auto !important; width: auto !important; max-width: 100% !important }

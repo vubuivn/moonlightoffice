@@ -1,0 +1,860 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Waves WP Theme\n"
+"POT-Creation-Date: 2018-11-12 13:39+0100\n"
+"PO-Revision-Date: 2014-10-30 14:20+0100\n"
+"Last-Translator: Darina Tyrpak <dtyrpak@gmail.com>\n"
+"Language-Team: Darinka Kostelnikova <dtyrpak@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html_e;_n;_x;_ex;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;"
+"translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comment.php:8
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../comments-loop-error.php:4
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+#: ../comments-loop-error.php:10
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments-loop-nav.php:5
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../comments-loop-nav.php:9
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: ../comments-loop-nav.php:12
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../comments.php:9
+msgid "1 Comment"
+msgstr ""
+
+#: ../content.php:9
+msgid "You are reading"
+msgstr ""
+
+#: ../content.php:20
+msgid "1"
+msgstr ""
+
+#: ../content.php:70
+msgid "More Events for You"
+msgstr ""
+
+#: ../content.php:72
+msgid "More Articles for You"
+msgstr ""
+
+#: ../excerpt.php:35
+msgid "read"
+msgstr ""
+
+#: ../excerpt.php:51
+msgid "Featured"
+msgstr ""
+
+#: ../footer.php:20
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:20
+msgid "All rights reserved."
+msgstr ""
+
+#: ../frontpage.php:75
+msgid "Upcoming Events"
+msgstr ""
+
+#: ../frontpage.php:108 ../template-latest-events.php:40
+msgid "Load More Articles"
+msgstr ""
+
+#: ../library/admin/meta-box-post-layout.php:35
+#: ../library/inc/functions-customize.php:72
+msgid "Layout"
+msgstr ""
+
+#: ../library/admin/meta-box-post-style.php:35
+msgid "Style"
+msgstr ""
+
+#: ../library/admin/meta-box-post-template.php:41
+msgid "Template"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:244
+msgid "Browse:"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:245
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:246
+msgid "Home"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:247
+#: ../library/inc/template-general.php:422
+msgid "404 Not Found"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:248
+#: ../library/inc/template-general.php:218
+msgid "Archives"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:250
+#: ../library/inc/template-general.php:400
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:254
+#: ../library/inc/template-general.php:354
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:708
+#: ../library/inc/template-general.php:376
+msgid "g:i a"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:725
+#: ../library/inc/template-general.php:354
+msgid "i"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:742
+#: ../library/inc/template-general.php:330
+msgid "g a"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:758
+#: ../library/ext/breadcrumb-trail.php:787
+#: ../library/ext/breadcrumb-trail.php:814
+#: ../library/ext/breadcrumb-trail.php:841
+#: ../library/ext/breadcrumb-trail.php:1176
+#: ../library/inc/template-general.php:262
+#: ../library/inc/template-general.php:286 ../loop-meta.php:47
+msgid "Y"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:759
+#: ../library/ext/breadcrumb-trail.php:815
+#: ../library/ext/breadcrumb-trail.php:1180
+msgid "F"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:760
+#: ../library/ext/breadcrumb-trail.php:1184
+msgid "j"
+msgstr ""
+
+#: ../library/ext/breadcrumb-trail.php:788
+#: ../library/inc/template-general.php:286
+msgid "W"
+msgstr ""
+
+#: ../library/inc/class-media-meta.php:245
+#: ../library/inc/template-media.php:172
+#, php-format
+msgid "%1$s &#215; %2$s"
+msgstr ""
+
+#: ../library/inc/functions-attr.php:202
+#, php-format
+msgid "%s Sidebar"
+msgstr ""
+
+#: ../library/inc/functions-attr.php:235
+#, php-format
+msgid "%s Menu"
+msgstr ""
+
+#: ../library/inc/functions-attr.php:476 ../library/inc/functions-attr.php:601
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: ../library/inc/functions-customize.php:95
+msgid "Global Layout"
+msgstr ""
+
+#: ../library/inc/functions-head.php:140
+#, php-format
+msgid "%1$s Page %2$s"
+msgstr ""
+
+#: ../library/inc/functions-layouts.php:51
+msgid "Default"
+msgstr ""
+
+#: ../library/inc/functions-utility.php:94
+msgid "(Untitled)"
+msgstr ""
+
+#: ../library/inc/template-general.php:55
+msgid "http://wordpress.org"
+msgstr ""
+
+#: ../library/inc/template-general.php:55
+msgid "WordPress"
+msgstr ""
+
+#: ../library/inc/template-general.php:286
+#, php-format
+msgid "Week %1$s of %2$s"
+msgstr ""
+
+#: ../library/inc/template-general.php:308
+msgid "F j, Y"
+msgstr ""
+
+#: ../library/inc/template-post.php:219
+msgid ", "
+msgstr ""
+
+#: ../loop-error.php:7
+msgid "404"
+msgstr ""
+
+#: ../loop-error.php:8
+msgid "Oops!... Something went wrong"
+msgstr ""
+
+#: ../loop-error.php:9
+msgid "This page cannot be found."
+msgstr ""
+
+#: ../loop-error.php:10 ../loop-error.php:18
+msgid "Go to Previous Page"
+msgstr ""
+
+#: ../loop-error.php:15
+msgid "Nothing found"
+msgstr ""
+
+#: ../loop-error.php:16
+msgid ""
+"We are sorry. There are no pages with this search term on our site. Want to "
+"search for something else?"
+msgstr ""
+
+#: ../loop-meta.php:20
+msgid "Tag"
+msgstr ""
+
+#: ../loop-meta.php:24
+msgid "Term"
+msgstr ""
+
+#: ../loop-meta.php:32 ../tribe-events/modules/bar.php:32
+msgid "Search"
+msgstr ""
+
+#: ../loop-meta.php:37
+msgid "Post Type"
+msgstr ""
+
+#: ../loop-meta.php:43
+msgid "F d, Y"
+msgstr ""
+
+#: ../loop-meta.php:45
+msgid "F Y"
+msgstr ""
+
+#: ../loop-meta.php:49 ../loop-meta.php:53
+msgid "Archive"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:393
+#: ../theme-functions/class-tgm-plugin-activation.php:912
+#: ../theme-functions/class-tgm-plugin-activation.php:2618
+#: ../theme-functions/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:394
+#: ../theme-functions/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:395
+#: ../theme-functions/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:1019
+#: ../theme-functions/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:1206
+#: ../theme-functions/class-tgm-plugin-activation.php:3033
+msgid "and"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3594
+#: ../theme-functions/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3594
+#: ../theme-functions/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../theme-functions/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../theme-functions/customize.php:19
+msgid "Maximum logo height in px"
+msgstr ""
+
+#: ../theme-functions/customize.php:23
+msgid "Logo Size"
+msgstr ""
+
+#: ../theme-functions/customize.php:34
+msgid "Font"
+msgstr ""
+
+#: ../theme-functions/customize.php:36
+msgid "Choose your fonts from google.com/fonts"
+msgstr ""
+
+#: ../theme-functions/customize.php:69 ../theme-functions/customize.php:83
+msgid "Google Font"
+msgstr ""
+
+#: ../theme-functions/customize.php:76 ../theme-functions/customize.php:90
+msgid "Google Font Weights"
+msgstr ""
+
+#: ../theme-functions/customize.php:97
+msgid "Character Subset"
+msgstr ""
+
+#: ../theme-functions/customize.php:118 ../theme-functions/theme.php:94
+msgid "Footer"
+msgstr ""
+
+#: ../theme-functions/customize.php:124
+msgid ""
+"Insider &copy; Copyright 2018. All Rights Reserved. With a commitment to "
+"quality content for our community."
+msgstr ""
+
+#: ../theme-functions/customize.php:140
+msgid "Copyright line"
+msgstr ""
+
+#: ../theme-functions/customize.php:144
+msgid "Some HTML is allowed"
+msgstr ""
+
+#: ../theme-functions/customize.php:148
+msgid "Facebook APP ID"
+msgstr ""
+
+#: ../theme-functions/customize.php:152
+msgid "For sharing. Get yours at https://developers.facebook.com/apps/"
+msgstr ""
+
+#: ../theme-functions/customize.php:156
+msgid "URL for Facebook Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:162
+msgid "URL for Twitter Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:168
+msgid "URL for LinkedIn Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:175
+msgid "URL for Skype Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:181
+msgid "URL for Youtube Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:188
+msgid "URL for Flickr Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:195
+msgid "URL for Tumblr Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:201
+msgid "URL for Dribbble Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:208
+msgid "URL for Pinterest Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:214
+msgid "URL for Google+ Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:220
+msgid "URL for Instagram Button"
+msgstr ""
+
+#: ../theme-functions/customize.php:232
+msgid "Background Color"
+msgstr ""
+
+#: ../theme-functions/customize.php:237
+msgid "Text Color"
+msgstr ""
+
+#: ../theme-functions/customize.php:242
+msgid "Widgets, Footer and Excerpts Background"
+msgstr ""
+
+#: ../theme-functions/customize.php:247
+msgid "Header Background, if no Featured Image is selected"
+msgstr ""
+
+#: ../theme-functions/customize.php:252
+msgid "Links, Buttons, Quotes"
+msgstr ""
+
+#: ../theme-functions/customize.php:257
+msgid "Delimiters, Lines"
+msgstr ""
+
+#: ../theme-functions/theme.php:83
+msgid "Primary"
+msgstr ""
+
+#: ../theme-functions/theme.php:95
+msgid "Footer for widgets."
+msgstr ""
+
+#: ../theme-functions/theme.php:175
+msgid "Lazy Load XT"
+msgstr ""
+
+#: ../theme-functions/theme.php:180
+msgid "The Events Calendar"
+msgstr ""
+
+#: ../theme-functions/theme.php:185
+msgid "Gutenberg"
+msgstr ""
+
+#: ../theme-functions/theme.php:190
+msgid "Widget Importer Exporter"
+msgstr ""
+
+#: ../theme-functions/theme.php:195
+msgid "Simple Social Buttons"
+msgstr ""
+
+#: ../tribe-events/modules/bar.php:33
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../tribe-events/modules/bar.php:33
+msgid "happening now everywhere"
+msgstr ""
+
+#: ../tribe-events/modules/bar.php:50
+#, php-format
+msgid "Submit %s search"
+msgstr ""
+
+#: ../tribe-events/modules/bar.php:51
+#, php-format
+msgid "Find %s"
+msgstr ""

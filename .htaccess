@@ -33,6 +33,10 @@
 	SetEnvIF X-FORWARDED-FOR "^193\.201\.224\.248$" DenyAccess
 	SetEnvIF X-CLUSTER-CLIENT-IP "^193\.201\.224\.248$" DenyAccess
 
+	SetEnvIF REMOTE_ADDR "^193\.201\.224\.220$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^193\.201\.224\.220$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^193\.201\.224\.220$" DenyAccess
+
 	<IfModule mod_authz_core.c>
 		<RequireAll>
 			Require all granted
@@ -45,6 +49,7 @@
 			Require not ip 193.201.224.225
 			Require not ip 193.201.224.200
 			Require not ip 193.201.224.248
+			Require not ip 193.201.224.220
 		</RequireAll>
 	</IfModule>
 	<IfModule !mod_authz_core.c>
@@ -59,6 +64,7 @@
 		Deny from 193.201.224.225
 		Deny from 193.201.224.200
 		Deny from 193.201.224.248
+		Deny from 193.201.224.220
 	</IfModule>
 # END iThemes Security - Do not modify or remove this line
 
